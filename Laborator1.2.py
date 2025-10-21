@@ -1,3 +1,25 @@
+# Setarea mediului de lucru (din Anaconda Prompt):
+# 1)	ieșire din environment: conda deactivate;
+# 2)	creare environment: conda create -p D:/AnacondaEnvs/LaboratoarePython (-p mediul va fi creat exact acolo unde vrem, -n mediul va fi creat în folderul implicit al Anaconda);
+# 3)	activare environment: conda activate D:/AnacondaEnvs/LaboratoarePython;
+# 4)	intrare în VS code din environment (anaconda prompt): code .;
+# 5)	creare folder nou în environment pentru fiecare laborator.
+
+# Laborator 1 și 2:
+# În VS code, cu CTRL + / comentați/decomentați mai multe linii de cod deodată.
+# Pentru a deschide un terminal folosește Ctrl + ’.
+
+# Tipuri de variabile în Python:
+# •	text type: str;
+# •	numeric types: int, float, complex (2 + 3j, 2 partea reală și 3j partea imaginară);
+# •	sequence types: list (colecție ordonată și modificabilă de elemente), tuple (colecție ordonată și nemodificabilă de elemente), range (creează o secvență ordonată de numere);
+# •	mapping type: dict (key-value pairs);
+# •	set types: set (o colecție neordonată și modificabilă de elemente unice), frozenset (ca set dar nemodificabil);
+# •	boolean type: bool (true, false);
+# •	binary types: bytes, bytearray, memoryview.
+# Numele de variabile in Python sunt case sensitive!!!
+
+
 # VARIABILE
 
 x = 1
@@ -75,7 +97,7 @@ print(f"My name is {name} and I am {age} years old.") # f-string, util pentru fo
 
 # ' ' pentru un singur caracter
 # " " pentru un sir de caractere
-# """ """ pentru pentru afisarea unui paragraf cu mai multe linii 
+# """ """ pentru afisarea unui paragraf cu mai multe linii 
  
 print("""    Numele meu este Alexandra.
           Imi place limbajul Python.""") # textul este afisat exact asa cum este formatat, util in docstrings
@@ -118,7 +140,7 @@ lista.pop(1) # stergere (dupa index) elementul din pozitia 1
 print(lista)
 
 lista = [0, 'a', 1, 'b', 'c']
-lista.remove("c") # sterge prima aparitie a lui 'c' din lista
+lista.remove('c') # sterge prima aparitie a lui 'c' din lista
 print(lista)
 
 # DICTIONARE
@@ -570,5 +592,6 @@ class VolleyballPlayer(SportPlayer):
 
 VolleyballPlayer1 = VolleyballPlayer("Andreea", 21, 39, 1.58, 50)
 print(VolleyballPlayer1.name, VolleyballPlayer1.age, VolleyballPlayer1.weight, VolleyballPlayer1.height, VolleyballPlayer1.spike_power)
+
 
 # putem folosi super() in loc de SportPlayer.__init__, super().__init__ (este mai modern)
