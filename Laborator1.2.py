@@ -1,11 +1,14 @@
+# Laborator 1 și 2
+
 # Setarea mediului de lucru (din Anaconda Prompt):
 # 1)	ieșire din environment: conda deactivate;
 # 2)	creare environment: conda create -p D:/AnacondaEnvs/LaboratoarePython (-p mediul va fi creat exact acolo unde vrem, -n mediul va fi creat în folderul implicit al Anaconda);
 # 3)	activare environment: conda activate D:/AnacondaEnvs/LaboratoarePython;
 # 4)	intrare în VS code din environment (anaconda prompt): code .;
-# 5)	creare folder nou în environment pentru fiecare laborator.
+# 5)	creare folder nou în environment pentru fiecare laborator;
+# 6)	dacă vrem să rulăm un fișier Python din linia de comandă (Command Prompt, PowerShell sau terminal) scriem python numeproiect.py;
+# 7)	se poate verifica funcționarea mediului Python cu comenzile: python -V, pip -V, conda -V.
 
-# Laborator 1 și 2:
 # În VS code, cu CTRL + / comentați/decomentați mai multe linii de cod deodată.
 # Pentru a deschide un terminal folosește Ctrl + ’.
 
@@ -17,6 +20,7 @@
 # •	set types: set (o colecție neordonată și modificabilă de elemente unice), frozenset (ca set dar nemodificabil);
 # •	boolean type: bool (true, false);
 # •	binary types: bytes, bytearray, memoryview.
+
 # Numele de variabile în Python sunt case sensitive!!!
 
 # VARIABILE
@@ -594,4 +598,5 @@ print(VolleyballPlayer1.name, VolleyballPlayer1.age, VolleyballPlayer1.weight, V
 
 
 # putem folosi super() in loc de SportPlayer.__init__, super().__init__ (este mai modern)
+
 
