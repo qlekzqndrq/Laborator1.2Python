@@ -17,8 +17,7 @@
 # •	set types: set (o colecție neordonată și modificabilă de elemente unice), frozenset (ca set dar nemodificabil);
 # •	boolean type: bool (true, false);
 # •	binary types: bytes, bytearray, memoryview.
-# Numele de variabile in Python sunt case sensitive!!!
-
+# Numele de variabile în Python sunt case sensitive!!!
 
 # VARIABILE
 
@@ -595,3 +594,4 @@ print(VolleyballPlayer1.name, VolleyballPlayer1.age, VolleyballPlayer1.weight, V
 
 
 # putem folosi super() in loc de SportPlayer.__init__, super().__init__ (este mai modern)
+
