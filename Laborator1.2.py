@@ -596,7 +596,4 @@ class VolleyballPlayer(SportPlayer):
 VolleyballPlayer1 = VolleyballPlayer("Andreea", 21, 39, 1.58, 50)
 print(VolleyballPlayer1.name, VolleyballPlayer1.age, VolleyballPlayer1.weight, VolleyballPlayer1.height, VolleyballPlayer1.spike_power)
 
-
 # putem folosi super() in loc de SportPlayer.__init__, super().__init__ (este mai modern)
-
-
